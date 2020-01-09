@@ -1,0 +1,14 @@
+form(action="/" method="POST")
+    button view again
+.session
+    p Session info
+    if sessionID
+        p= `Session ID: ${sessionID}`
+    if sessionExpireTime
+        p= `Session expires in ${Math.round(sessionExpireTime)} seconds`
+    if views
+        p= `Views: ${views}`
+    if isAuthenticated
+        p= `Logged in as: ${username}`
+    else
+        p= 'Not logged in'

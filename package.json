@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development SESSION_SECRET=some_secret_value_here && nodemon server"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "^4.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1",
+    "node-bcrypt": "^0.0.1",
+    "node-postgres": "^0.1.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^7.17.0",
+    "pug": "^2.0.4",
+    "redis": "^2.8.0",
+    "uuid": "^3.3.3",
+    "winston": "^3.2.1"
+  }
+}

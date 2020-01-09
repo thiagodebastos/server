@@ -1,0 +1,12 @@
+#login-form {
+  border: 2px solid purple;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  padding: 2px 8px;
+}
