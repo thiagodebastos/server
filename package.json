@@ -1,5 +1,7 @@
 {
-  "name": "server",
+  "name": "express-session-auth-example",
+  "private": true,
+  "description": "Example Express app using sessions with Redis and login/logout with Passport and Postgres",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
